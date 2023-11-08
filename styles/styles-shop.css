@@ -1,0 +1,89 @@
+/* styles-shop.css */
+
+body {
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Supprimer l'effet de soulignement sous les liens */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section.boutique {
+    padding: 20px;
+}
+
+.produit {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.produit img {
+    max-width: 100%;
+}
+
+.produit h3 {
+    font-size: 1.5rem;
+}
+
+.produit p {
+    font-size: 1rem;
+}
+
+.produit button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
